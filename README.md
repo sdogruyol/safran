@@ -1,4 +1,4 @@
-# Safran Ruby CLı
+# Safran Ruby CLI
 
 [Safran.io](http://safran.io) için Ruby ile yazılmış Command Line okuyucusu.
 
