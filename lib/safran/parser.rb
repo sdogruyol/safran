@@ -13,12 +13,17 @@ class Parser
       open(@url) do |rss|
         feed = RSS::Parser.parse(rss)
         feed.items.each do |item|
-          p "Item: #{item.title}"
+          print item
         end
       end
-    rescue
-      "Bir hata #{@@gazete_id}, will ignore: #{e}"
+    rescue => e
+      "Bir hata oluştu: #{e}"
     end
 
+  end
+
+  def print(item)
+    p "#{item.title}"
+    p "#{item.link}"
   end
 end

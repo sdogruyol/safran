@@ -5,11 +5,14 @@ describe Parser do
     subject.url.should match(/.rss/)
   end
 
-  it 'should return RSS feed ' do
+  it 'should return the RSS feed ' do
+    subject.stub(:print)
     subject.parse.should_not be nil
   end
 
-  it 'should contain RSS items' do
-    subject.parse.should contain
+  it 'should have an items array' do
+    subject.stub(:print)
+    subject.parse.should be_a_kind_of(Array)
   end
+
 end
