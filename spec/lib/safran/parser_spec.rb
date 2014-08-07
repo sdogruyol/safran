@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe Parser do
+describe Safran::Parser do
   it 'should have a valid rss url' do
     subject.url.should match(/.rss/)
   end

@@ -1,5 +1,2 @@
-require "safran/version"
-
-module Safran
-  URL = 'http://www.safran.io/feed.rss'
-end
+require 'safran/version'
+require 'safran/parser'
