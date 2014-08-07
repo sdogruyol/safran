@@ -16,6 +16,8 @@ gem install safran
 safran
 ```
 
+**Önemli Not:** Eğer OS X kullanıyorsanız ve Web Taracıyıda haberi okumak istiyorsanız. Haber linkinin üzerine gelip cmd+double-click yapın.
+
 ## Screenshot
 
 ![Safran.io](screenshot.png)
