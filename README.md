@@ -1,6 +1,8 @@
-# Safran CLI Okuyucu
+# Safran Ruby CLı
 
 [Safran.io](http://safran.io) için Ruby ile yazılmış Command Line okuyucusu.
+
+Node.js versiyonu ile yazılmış versiyonu için [safran-cli](https://github.com/f/safran-cli)
 
 ## Kurulum
 
