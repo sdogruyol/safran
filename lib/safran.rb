@@ -1,5 +1,5 @@
 require "safran/version"
 
 module Safran
-  # Your code goes here...
+  URL = 'http://www.safran.io/feed.rss'
 end
