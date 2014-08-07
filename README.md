@@ -14,6 +14,9 @@ gem install safran
 safran
 ```
 
+## Screenshot
+
+![Safran.io](screenshot.png)
 
 ## Safran Nedir?
 
