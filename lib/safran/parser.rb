@@ -1,5 +1,6 @@
 require 'rss'
 require 'open-uri'
+require 'colorize'
 
 module Safran
   class Parser
@@ -24,7 +25,8 @@ module Safran
 
     def print(item)
       puts "#{item.title}".colorize(:red)
-      puts "#{item.link}".colorize(:blue)
+      puts "#{item.link}".colorize(:blue).underline
+      puts ''
     end
   end
 end
