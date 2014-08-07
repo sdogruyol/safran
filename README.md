@@ -1,6 +1,6 @@
 # Safran CLI Okuyucu
 
-[Safran.io](http://safran.io) için Ruby ile yazılmış CLI haber okuyucusu.
+[Safran.io](http://safran.io) için Ruby ile yazılmış Command Line okuyucusu.
 
 ## Kurulum
 
