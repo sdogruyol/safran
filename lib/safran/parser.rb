@@ -23,8 +23,8 @@ module Safran
     end
 
     def print(item)
-      p "#{item.title}"
-      p "#{item.link}"
+      puts "#{item.title}".colorize(:red)
+      puts "#{item.link}".colorize(:blue)
     end
   end
 end

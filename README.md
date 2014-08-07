@@ -1,29 +1,26 @@
-# Safran
+# Safran CLI Okuyucu
 
-TODO: Write a gem description
+[Safran.io](http://safran.io) için Ruby ile yazılmış CLI haber okuyucusu.
 
-## Installation
+## Kurulum
 
-Add this line to your application's Gemfile:
+```bash
+gem install safran
+```
 
-    gem 'safran'
+## Kullanım
 
-And then execute:
+```bash
+safran
+```
 
-    $ bundle
 
-Or install it yourself as:
+## Safran Nedir?
 
-    $ gem install safran
+[http://www.safran.io/hakkinda](http://www.safran.io/hakkinda) sayfasından:
 
-## Usage
+> Safran yaratıcı servisler ve ürünler tasarlayan/geliştiren topluluklar için düşünülmüş, şimdilik sadece davetlilere açık bir sosyal haber ve paylaşım ağıdır. Severek takip ettiğimiz Hacker News ve Designer News gibi sitelerin Türkçe konuşanlar için bir uyarlamasıdır.
 
-TODO: Write usage instructions here
+## Lisans
 
-## Contributing
-
-1. Fork it ( https://github.com/[my-github-username]/safran/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+[MIT License](http://f.mit-license.org)
