@@ -1,6 +1,6 @@
 # Safran Ruby CLI
 
-[Safran.io](http://safran.io) için Ruby ile yazılmış Command Line okuyucusu.
+[Safran.io](http://safran.io) için Ruby ile yazılmış Command Line okuyucusu
 
 Node.js ile yazılmış versiyonu için [safran-cli](https://github.com/f/safran-cli)
 
